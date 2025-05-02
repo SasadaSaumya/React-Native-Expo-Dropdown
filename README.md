@@ -33,20 +33,32 @@ It works seamlessly on **iOS**, **Android**, and even inside the **Expo Go app**
 ├── assets/                # (Optional) Icons/images
 ├── components/            # Reusable dropdown components
 └── README.md              # This file
+```
 
-📦 Installation
-Clone the repository:
+## 📦 Installation
 
-git clone https://github.com/YourUsername/ReactNativeExpoDropdown.git
-cd ReactNativeExpoDropdown
+- Clone the repository:
 
-Install dependencies: bash Copy Edit
-npm install
+  ```bash
+  git clone https://github.com/YourUsername/ReactNativeExpoDropdown.git
+  cd ReactNativeExpoDropdown
+  ```
 
-Start the Expo app: bash Copy Edit
-npx expo start
+- Install dependencies:
 
-Basic Dropdown (ScrollView)
+  ```bash
+  npm install
+  ```
+
+- Start the Expo app:
+
+  ```bash
+  npx expo start
+  ```
+
+## Basic Dropdown (ScrollView)
+
+```jsx
 <DropDownPicker
   open={open}
   value={value}
@@ -57,22 +69,30 @@ Basic Dropdown (ScrollView)
   placeholder="Select a fruit"
   listMode="SCROLLVIEW"
 />
+```
 
- FlatList Mode
+## FlatList Mode
+
+```jsx
 <DropDownPicker
   listMode="FLATLIST"
   searchable={true}
 />
+```
 
-Modal Mode with Custom Styling
+## Modal Mode with Custom Styling
+
+```jsx
 <DropDownPicker
   listMode="MODAL"
   style={{ borderRadius: 12 }}
   dropDownContainerStyle={{ backgroundColor: "#f9f9f9" }}
   searchable={true}
 />
+```
 
-🧠 ListMode Types Explained
+## 🧠 ListMode Types Explained
+
 | Mode              | Description                                  |
 | ----------------- | -------------------------------------------- |
 | `SCROLLVIEW`      | Default scrollable dropdown list             |
@@ -80,25 +100,22 @@ Modal Mode with Custom Styling
 | `MODAL`           | Displays the dropdown in a full-screen modal |
 | `VIRTUALIZEDLIST` | Used for large and complex item sets         |
 
+## 📋 To Do
 
-📋 To Do
- Add search bar example
+- Add search bar example
+- Show listMode variations
+- Add form validation with dropdown
+- Add multi-select support
 
- Show listMode variations
+---
 
- Add form validation with dropdown
+## 🙌 Author
 
- Add multi-select support
-
-🙌 Author
-Sasanda Saumya
+Sasanda Saumya  
 🔗 Portfolio • Medium • LinkedIn
 
-💖 Support
+---
+
+## 💖 Support
+
 If this helped you, please ⭐ star the repo and share it with other Expo + React Native developers.
-
-
-
-
-
-
