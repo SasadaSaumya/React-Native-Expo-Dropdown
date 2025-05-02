@@ -40,8 +40,8 @@ It works seamlessly on **iOS**, **Android**, and even inside the **Expo Go app**
 - Clone the repository:
 
   ```bash
-  git clone [https://github.com/SasadaSaumya/React-Native-Expo-Dropdown.git](https://github.com/SasadaSaumya/React-Native-Expo-Dropdown.git)
-  cd ReactNativeExpoDropdown
+  git clone https://github.com/SasadaSaumya/React-Native-Expo-Dropdown.git
+  cd React-Native-Expo-Dropdown
   ```
 
 - Install dependencies:
@@ -112,7 +112,7 @@ It works seamlessly on **iOS**, **Android**, and even inside the **Expo Go app**
 ## 🙌 Author
 
 Sasanda Saumya  
-🔗 Portfolio • Medium • LinkedIn
+🔗 Portfolio • Medium • LinkedIn 
 
 ---
 
