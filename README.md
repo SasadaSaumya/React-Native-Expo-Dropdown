@@ -21,7 +21,11 @@ It works seamlessly on **iOS**, **Android**, and even inside the **Expo Go app**
 
 ## 📸 Preview
 
-<img src="https://user-images.githubusercontent.com/your-image-path/dropdown-demo.gif" width="300" />
+<img src="./assets/sample.jpg" width="300" />
+<img src="./assets/sample2 (1).jpg" width="300" />
+<img src="./assets/sample2 (2).jpg" width="300" />
+<img src="./assets/sample2 (3).jpg" width="300" />
+
 
 ---
 
